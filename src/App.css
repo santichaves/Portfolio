@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-image: url('https://media1.giphy.com/media/tL5HmgfZi0Qow/giphy.gif?cid=ecf05e47w5sn36k3fvdl6179wkrgkre4kupfbcjhw8bp4ngy&ep=v1_gifs_related&rid=giphy.gif&ct=g');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 65.32rem;
 }
 
 .App-logo {

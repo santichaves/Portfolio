@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap');
+
+
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    margin-right: 10rem;
+    
+}
+
+.texto {
+    font-family: 'Space Mono', monospace;
+    color: rgb(3, 111, 123);
+    text-shadow: 3px 3px 3px #ffffffc5;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.card {
+    width: 15rem;
+    height: 20rem;
+    
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+.card2 {
+    width: 15rem;
+    height: 20rem;
+    background-color: #1a1a1a;
+    transition: all .2s;
+    border-radius: 20px;
+}
+
+.card2:hover {
+    transform: scale(0.98);
+    border-radius: 20px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgb(254, 254, 254);
+}
+
+
+.icono {
+    width: 6rem;
+    height: 6rem;
+    margin-left: .8rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    transition: all .3s;
+    align-items: center;
+}
+
+.icono2 {
+    width: 6rem;
+    height: 6rem;
+
+    transition: all .2s;
+
+}
+
+.icono:hover {
+    transform: scale(0.98);
+
+}
+
+.icono2:hover {
+    box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+    filter: drop-shadow(0 7px 9px rgb(255, 255, 255));
+
+}
+
+.contenedorIcono {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.hr {
+    
+    width: 80rem;
+    height: .3rem;
+}
+
+.contentText {
+    
+    max-width: 600px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        justify-content: center;
+    }
+
+    .hr {
+        max-width: 600px;
+    }
+    .stack {
+
+        max-width: max-content;
+        padding: .5rem;
+        margin-left: 30px;
+    }
+    .contenedorIcono {
+        display: grid;
+        grid-template-columns: repeat(3, .4fr); /* 3 columnas de igual tamaño */
+        
+        margin-bottom: 3rem;
+    }
+
+}
