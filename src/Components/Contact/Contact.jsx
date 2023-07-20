@@ -12,9 +12,20 @@ const Contact= ()=>{
         <>
             <div className={styles.conteiner}>
 
-                <Link to='/'>
-                    <button className={styles.button}><span>Home</span></button>
+                
+            <div className={styles.buttonContainer}>
+
+                <Link to='/About'>
+                    <button className={styles.button}><span>About me</span></button>
                 </Link>
+                <Link to="/">
+                    <button className={styles.button}> <span>Home</span></button>
+                </Link>
+                <Link to="/Proyects">
+                    <button className={styles.button}> <span>Proyects</span></button>
+                </Link>
+            </div>
+
                 <div >
                 <h1 className={styles.texto}>Contact me by:</h1>
                 </div>

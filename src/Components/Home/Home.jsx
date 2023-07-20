@@ -1,4 +1,3 @@
-import Nabvar from '../Nabvar/Nabvar';
 import styles from './Home.module.css'
 import css from '../../img/css.png'
 import html from '../../img/html.png'
@@ -10,21 +9,35 @@ import git from '../../img/git.png'
 import github from '../../img/github.png'
 import postgresql from '../../img/postgresql.png'
 import Miproyecto from '../../img/Miproyecto.png'
-
+import { Link } from 'react-router-dom';
 
 
 const Home = () =>{
     return(
         <div className={styles.container} >
+            <div className={styles.buttonContainer}>
+
+            <Link to='/About'>
+                <button className={styles.button}> 
+                <span>About me</span></button>
+                </Link>
+        
+                <Link to="/Contact">
+                <button className={styles.button}> <span>Contact</span></button>
+                </Link>
             
+                <Link to="/Proyects">
+                <button className={styles.button}> <span>Proyects</span></button>
+                </Link>
+            </div>
         <div className={styles.home}>
                 <div className={styles.card}>
                     <img src={Miproyecto} alt="yo" className={styles.card2} />
                 </div>
                 <div className={styles.contentText}>
-                    <h1 className={styles.texto}>¡BIENVENIDOS!</h1>
-                    <h2 className={styles.texto}>Soy Santiago</h2>
-                    <h2 className={styles.texto}>Y este es mi portfolio</h2>
+                    <h1 className={styles.texto}>¡WELCOME!</h1>
+                    <h2 className={styles.texto}>I'm Santiago</h2>
+                    <h2 className={styles.texto}>This is my portfolio</h2>
                 </div>
             </div>
 

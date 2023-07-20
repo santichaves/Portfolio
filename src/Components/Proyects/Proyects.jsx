@@ -14,12 +14,18 @@ const Proyects= () =>{
 
         <div>
             <div className={styles.flecha}>
-                <Link to=
-                    "/">
-                    <button className={styles.button}>
-                        <span>Home</span>
-                    </button>
+            <div className={styles.buttonContainer}>
+
+                <Link to='/About'>
+                     <button className={styles.button}><span>About me</span></button>
                 </Link>
+                <Link to="/Contact">
+                    <button className={styles.button}> <span>Contact</span></button>
+                </Link>
+                <Link to="/">
+                     <button className={styles.button}> <span>Home</span></button>
+                </Link>
+            </div>
             <div className={styles.proyectos}>
                 <h1 className={styles.texto}>Projects:</h1>
             </div>

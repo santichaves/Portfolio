@@ -10,10 +10,11 @@
 
 .proyectos {
     margin-top: 2rem;
-    padding-left: 40rem;
+    
 }
 
 .card {
+
     width:41rem;
     height: 40rem;
     backdrop-filter: blur(10px);
@@ -41,6 +42,7 @@
 .texto {
     font-family: 'Space Mono', monospace;
     color: rgb(3, 111, 123);
+    text-shadow: 3px 3px 3px #ffffffc5;
     font-size: 3.3rem;
     align-items: center;
 }
@@ -57,18 +59,12 @@
     filter: drop-shadow(0 2px 5px rgba(225, 0, 255, 0.644));
 }
 
-.flecha {
-    padding-top: 2rem;
-    padding-left: 7rem;
-    display: flex;
-    flex-direction: row;
-    margin-top: 3rem;
-    width: 80%;
-}
+
 
 .parrafo {
     font-family: 'Space Mono', monospace;
     color: rgb(3, 111, 123);
+    
     font-size: .9rem;
     align-items: center;
 }
@@ -86,7 +82,8 @@
 
     .parrafo {
         font-family: 'Space Mono', monospace;
-        color: black;
+    color: rgb(3, 111, 123);
+    text-shadow: 3px 3px 3px #ffffffc5;
         font-size: .9rem;
         align-items: center;
     }
@@ -110,9 +107,14 @@
 
     }
 }
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
 
 .button {
-    
+    font-family: 'Space Mono', monospace;
     position: relative;
     text-decoration: none;
     font-size: 15px;
