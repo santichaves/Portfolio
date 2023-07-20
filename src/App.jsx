@@ -10,10 +10,12 @@ import Music from './Music/Music.mp3'
 function App() {
   
   return (
+
+    
     <div className="App">
         <BrowserRouter>
         
-        <audio autoPlay loop>
+        <audio autoPlay controls loop>
               <source src={Music} type='audio/mpeg' />
             </audio>
           
