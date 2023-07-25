@@ -1,3 +1,4 @@
+
 import styles from './Home.module.css'
 import css from '../../img/css.png'
 import html from '../../img/html.png'
@@ -10,13 +11,15 @@ import github from '../../img/github.png'
 import postgresql from '../../img/postgresql.png'
 import Miproyecto from '../../img/Miproyecto.png'
 import { Link } from 'react-router-dom';
+import SpaceMusic from '../../Music/SpaceMusic- Audio Hertz.mp3'
 
 
 const Home = () =>{
+    
     return(
         <div className={styles.container} >
             <div className={styles.buttonContainer}>
-
+            
             <Link to='/About'>
                 <button className={styles.button}> 
                 <span>About me</span></button>

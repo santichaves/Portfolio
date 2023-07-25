@@ -1,12 +1,24 @@
 #root {
   text-align: center;
   background-image: url('https://media1.giphy.com/media/tL5HmgfZi0Qow/giphy.gif?cid=ecf05e47w5sn36k3fvdl6179wkrgkre4kupfbcjhw8bp4ngy&ep=v1_gifs_related&rid=giphy.gif&ct=g');
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 100%;
-    height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
+
+@media screen and (max-width: 768px) {
+  #root {
+    background-size: contain;
+  }
+}
+.musicplayer {
+  width: 10rem;
+  height: 2rem;
+  
+
+}
 .logo {
   height: 6em;
   padding: 1.5em;
